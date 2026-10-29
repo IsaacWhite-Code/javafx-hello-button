@@ -1,0 +1,33 @@
+/* Background color */
+.root { /* This is the selector. It tells JavaFX which element to style. The root is the top-level container of your interface. */
+    -fx-background-color: #f0f4f8;;
+}
+
+/* Changes properties of label */
+.label {
+    -fx-text-fill: #1e293b;;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Changes properties of button */
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 24px; /* Adds space inside the button around its content */
+    -fx-background-radius: 8px; /* Rounds the corners of the background */
+}
+
+/* how to change a spefic button */
+/* #submitButton {
+       -fx-background-color: royalblue;
+has to have an id in fxml
+}*/
+
+
+
+/* A hover effect changes a button's appearance when the mouse moves over it. */
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
